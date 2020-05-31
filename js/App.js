@@ -1,10 +1,10 @@
 import { html } from './modules/sinuous/index.js'
 
-export default view => html`
+export default v => html`
   <${Header} />
   <main>
     <div class="box" data-theme="light">
-      ${view}
+      ${v}
     </div>
   </main>
 `
@@ -15,7 +15,7 @@ const Header = () => html`
       <p class="title text-4">Plain SPA</p>
       <nav>
         <ul class="stack-h">
-          <li><a href="/">Home</a></li>
+          <li><a href="/">Home!!</a></li>
           <li><a href="/todo">Todo</a></li>
           <li><a href="/blog/post-with-id">Post with ID</a></li>
           <li><a href="/any-link" data-ignore-router>Ignore Router Link</a></li>

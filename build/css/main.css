@@ -44,3 +44,8 @@ header .title {
 .title {
   font-weight: 700;
 }
+
+h1  {
+  color: red;
+  font-weight: bold;
+}
